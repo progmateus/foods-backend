@@ -76,7 +76,7 @@ public static class BuilderExtension
 
     builder.Services.AddTransient<ListFoodsHandler>();
     builder.Services.AddTransient<GenerateGroupSeed>();
-    /*     builder.Services.AddTransient<GetFoodProfileHandler>(); */
+    builder.Services.AddTransient<GetFoodProfileHandler>();
   }
 
   public static void AddRabbitMqService(this WebApplicationBuilder builder)

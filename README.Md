@@ -55,7 +55,7 @@
  - &check; Seed para gerar os Grupos automaticamente ao iniciar a aplicação
  - &check; Job para monitorar os alimentos a cada 5 minutos
  - &check; Filas e eventos para gerar os alimentos (1 para cada página)
- - &check; Containerização utilizando Docker
+ - &check; Conteinerização utilizando Docker
  - &check; Listagem de Alimentos com paginação
  - &check; Buscar alimentos pelo nome
 
