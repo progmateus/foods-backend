@@ -25,9 +25,9 @@
     docker compose up
    ```
 
-5. Pode ser necessário criar o banco "Foods" manualmente
+5. Pode ser necessário criar o banco "foods" manualmente
    ```bash
-    Criar um banco "Foods" no SQL Server
+    Criar um banco "foods" no SQL Server
    ```
 
 6. Rodar migrations
