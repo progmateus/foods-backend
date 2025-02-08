@@ -25,27 +25,34 @@
     docker compose up
    ```
 
-5. Pode ser necessário criar o banco "foods" manualmente
+5. Fazer login no SQL Server
    ```bash
-    Criar um banco "foods" no SQL Server
+    User: sa
+    Password: 1q2w3e4r@#$
+    Port: 1433
    ```
 
-6. Rodar migrations
+6. Criar banco no SQL Server
+   ```bash
+    "create database foods"
+   ```
+
+7. Rodar migrations
     ```bash
       dotnet ef --project src/data --startup-project src/http database update
     ```
 
-7. Alterar Endereço de ip da aplicação ( http > Properties > launchSettings.json )
+8. Alterar Endereço de ip da aplicação ( http > Properties > launchSettings.json )
     ```bash
         "applicationUrl": "http://localhost:5062;http://[seu-ip]:5062",
     ```
 
-7. Entrar no diretório http
+9. Entrar no diretório http
     ```bash
         cd src/http
     ```
 
-8. Rodar a aplicação
+10. Rodar a aplicação
     ```bash
         dotnet run
     ```
